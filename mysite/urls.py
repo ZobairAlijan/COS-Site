@@ -63,6 +63,7 @@ urlpatterns += patterns('',
     
 
     ("^", include("mezzanine.generic.urls")),
+    ("^", include("mezzanine.urls")),
     (r'^ckeditor/', include('ckeditor.urls')),
     (r'^grappelli/', include('grappelli.urls')),
 
