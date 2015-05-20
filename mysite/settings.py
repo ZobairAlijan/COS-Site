@@ -246,8 +246,8 @@ TEMPLATE_DIRS = (os.path.join(PROJECT_ROOT, "../templates"),)
 
 INSTALLED_APPS = (
 
-    #"grappelli_nested",
-    #"grappelli",
+    # "grappelli_nested",
+    # "grappelli",
     # "suit",
     "django.contrib.admin",
     "django.contrib.auth",
