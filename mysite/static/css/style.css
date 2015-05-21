@@ -140,6 +140,10 @@ a.more i {
   font-size: 12px;
 }
 
+ul{
+    margin:2em;
+    padding: 0px;
+}
 /***
 Fix link outlines after click
 ***/
@@ -147,6 +151,10 @@ a,a:focus, a:hover, a:active {
   outline: 0;
 }
 
+.bullets {
+    list-style-type: disc !important;
+    color: #000;
+}
 /***
 IE8 fix for form input height in fluid rows
 ***/
@@ -1496,6 +1504,9 @@ font-size: 18px;
 	font-size: 13px; 
 }
 
+.front-team ul {
+	padding: 4px 0 0;
+}
 .front-team .social-icons {
 	overflow: hidden;
 }
@@ -2525,12 +2536,4 @@ li [class*=" fa-"].icon-large {
 }
 .login-signup-page .checkbox{
 	padding-left: 0;
-}
-
-.indented{
-    margin-left:40px;
-}
-
-.team-padding{
-    margin-left:10px;
 }

@@ -10,7 +10,8 @@
     <meta name="google-site-verification" content="BFNbseofFcxRL75jeKcC5vz5BqorW18gQEDx0vK7DKc" />
     <title>COS | {% block title %}{% endblock %}</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content={% block description %}"COS is non-profit technology start-up dedicated to improving the alignment between scientific values and scientific practices."{% endblock %} />
+    <meta content={% block description %}"COS is non-profit technology start-up dedicated to improving the alignment
+    between scientific values and scientific practices."{% endblock %} />
     <meta content="Zobair Alijan" name="author" />
     <meta property="og:image" content="http://centerforopenscience.org/static/img/cos_center_logo_small.png"/>
     <link href="/static/favicon.ico" rel="shortcut icon">
@@ -33,7 +34,7 @@
     <!-- BEGIN FLICKR STYLES -->
     <!-- uses jflickrfeed plugin http://www.newmediacampaigns.com/blog/a-jquery-flickr-feed-plugin -->
         <link href="/static/plugins/jflickrfeed/style.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="/static/plugins/jflickrfeed/colorbox/colorbox.css" rel="stylesheet" type="text/css" media="screen" />
+        <link href="/static/plugins/jflickrfeed/colorbox/colorbox.css" rel="stylesheet" type="text/css" media="screen"/>
     <!-- END FLICKR STYLES -->
 
 
@@ -102,9 +103,11 @@
                     </ul>
                 </li>
                 <li role="presentation" class="dropdown {% if nav == 'get_involved' %}active{% endif %}">
-                    <a href="{% url 'get_involved' %}" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+                    <a href="{% url 'get_involved' %}" class="dropdown-toggle" data-toggle="dropdown"
+                       data-hover="dropdown">
                         Get Involved
-                        <i class="fa fa-angle-down"></i></a>
+                        <i class="fa fa-angle-down"></i>
+                    </a>
                     <ul class="dropdown-menu" role="menu"><li>
                         <li><a href="{% url 'involved_participate' %}">Participate</a></li>
                         <li><a href="{% url 'ambassadors' %}">Ambassadors</a></li>
@@ -128,20 +131,11 @@
 </div>
 </div>
 <!-- END HEADER -->
-
-<!-- Each page's content can be found in their respective mako files. -->
-
-
+<!-- Each page's content can be found in their respective html files. -->
 
 {% block slider %}{% endblock %}
     {% block content %}
             {% endblock %}
-
-
-
-
-
-
 
 <!-- BEGIN FOOTER -->
 <div class="footer">
@@ -150,15 +144,22 @@
             <div class="col-md-4 col-sm-2 space-mobile">
                 <!-- BEGIN ABOUT -->
                 <h2>About</h2>
-                <p class="margin-bottom-30">The Center for Open Science fosters openness, integrity, and reproducibility of scientific research.</p>
-                <p><a href="https://github.com/CenterForOpenScience/centerforopenscience.org/blob/master/TERMS_OF_USE.md">Terms</a>&nbsp;|&nbsp;<a href="https://github.com/CenterForOpenScience/centerforopenscience.org/blob/master/PRIVACY_POLICY.md">Privacy</a></p>
+                <p class="margin-bottom-30">The Center for Open Science fosters openness, integrity, and reproducibility
+                    of scientific research.
+                </p>
+                <p><a href="https://github.com/CenterForOpenScience/centerforopenscience.org/blob/master/TERMS_OF_US
+                E.md">Terms</a>&nbsp;|&nbsp;<a href="https://github.com/CenterForOpenScience/centerforopenscience.org/
+                blob/master/PRIVACY_POLICY.md">Privacy</a>
+                </p>
                 <div class="clearfix"></div>
                 <!-- END ABOUT -->
-
                 <!-- Begin Map -->
                 <div class="row" id="footer-map">
-                    <iframe width="100%" height="240" frameborder="0" scrolling="no" src="https://maps.google.com/maps/ms?msa=0&amp;msid=212077150860196517022.0004eb13abe27b89316db&amp;ie=UTF8&amp;t=m&amp;ll=38.038628,-78.481178&amp;spn=0.04056,0.120163&amp;z=12&amp;output=embed"></iframe>
-                    <br /><small>View <a href="https://maps.google.com/maps/ms?msa=0&amp;msid=212077150860196517022.0004eb13abe27b89316db&amp;ie=UTF8&amp;t=m&amp;ll=38.038628,-78.481178&amp;spn=0.04056,0.120163&amp;z=12&amp;source=embed">
+                    <iframe width="100%" height="240" frameborder="0" scrolling="no" src="https://maps.google.com/maps/ms?msa=0&amp;msid=212077150860196517022.0004eb13abe27b89316db&amp;ie=UTF8&amp;t=m&amp;ll=38.038628,-78.481178&amp;spn=0.04056,0.120163&amp;z=12&amp;output=embed">
+                    </iframe>
+                    <br /><small>View <a href="https://maps.google.com/maps/ms?msa=0&amp;msid=212077150860196517022.0004
+                    eb13abe27b89316db&amp;ie=UTF8&amp;t=m&amp;ll=38.038628,-78.481178&amp;spn=0.04056,0.120163&amp;z=12&
+                    amp;source=embed">
                     210 Ridge McIntire Rd</a> in a larger map</small>
                 </div>
                 <!-- End Map -->
@@ -177,9 +178,17 @@
                 <!--BEGIN SOCIAL LINKS -->
                 <div class="row">
                     <ul class="social-footer">
-                        <li><a href="https://www.facebook.com/OpenScienceFramework"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://plus.google.com/103557785986281627994/posts"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="https://www.linkedin.com/company/3187955?trk=vsrp_companies_res_name&trkInfo=VSRPsearchId%3A1430177711396542103724%2CVSRPtargetId%3A3187955%2CVSRPcmpt%3Aprimary"><i class="fa fa-linkedin"></i></a></li>
+                        <li>
+                            <a href="https://www.facebook.com/OpenScienceFramework"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/103557785986281627994/posts">
+                                <i class="fa fa-google-plus"></i>
+                            </a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/company/3187955?trk=vsrp_companies_res_name&trkInfo=VSRP
+                        searchId%3A1430177711396542103724%2CVSRPtargetId%3A3187955%2CVSRPcmpt%3Aprimary">
+                            <i class="fa fa-linkedin"></i></a></li>
                         <li><a href="https://twitter.com/OSFramework"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="https://github.com/CenterForOpenScience"><i class="fa fa-github"></i></a></li>
                     </ul>
@@ -201,8 +210,16 @@
             <div class="col-md-4 col-sm-4" id="twitterbox">
                 <!-- BEGIN TWITTER BLOCK : Uses Official Twitter widget with customizations -->
                 <h2>Twitter Feed</h2>
-                     <a class="twitter-timeline" href="https://twitter.com/OSFramework" data-widget-id="456100099907547136"  data-theme="dark"  data-related="twitterapi,twitter" data-aria-polite="assertive" height="400" lang="EN" data-chrome="nofooter transparent noheader noscrollbar noborders" data-tweet-limit="3">Tweets by @OSFramework</a>
-                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                     <a class="twitter-timeline" href="https://twitter.com/OSFramework"
+                        data-widget-id="456100099907547136"  data-theme="dark"  data-related="twitterapi,twitter"
+                        data-aria-polite="assertive" height="400" lang="EN"
+                        data-chrome="nofooter transparent noheader noscrollbar noborders" data-tweet-limit="3">
+                         Tweets by @OSFramework</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)
+                            ?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=
+                            p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}
+                            (document,"script","twitter-wjs");
+                    </script>
                 <!-- END TWITTER BLOCK -->
             </div>
         </div>
