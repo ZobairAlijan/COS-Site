@@ -428,6 +428,14 @@ body {
     padding: 3%;
 }
 
+.bx-wrapper{
+    min-height:400px!important;
+}
+
+.bx-viewport{
+    min-height:400px;
+}
+
 .sponsor-center {
     width : 360px;
     text-align: center;
@@ -651,4 +659,18 @@ body {
     #venn {
         padding-top: 20px;
     }
+}
+
+
+.portlet-body{
+    margin:-30px;
+}
+
+.tab-content{
+    margin-left:30px;
+    margin-right:30px;
+}
+
+.indented li{
+    list-style-type:disc;
 }
