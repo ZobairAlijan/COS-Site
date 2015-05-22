@@ -674,3 +674,21 @@ body {
 .indented li{
     list-style-type:disc;
 }
+
+
+.margin-left-5{
+    margin-left:5px;
+}
+
+.li-margin{
+    margin-right:0;
+    margin-top:0;
+    margin-bottom:0;
+    margin-left:40px;
+}
+
+
+.pre-reg p {
+  font-size: 21px;
+  font-weight: 300;
+}

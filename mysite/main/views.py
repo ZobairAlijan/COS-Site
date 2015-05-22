@@ -185,3 +185,12 @@ class TopPageView(generic.TemplateView):
         context = super(TopPageView, self).get_context_data(**kwargs)
         context['page'] = Pages.objects.filter(slug=u'top')
         return context
+
+
+class PreregPageView(generic.TemplateView):
+    template_name = 'page/prereg.html'
+
+    def get_context_data(self, **kwargs):
+        context = super(PreregPageView, self).get_context_data(**kwargs)
+        context['page'] = Pages.objects.filter(slug=u'prereg')
+        return context
