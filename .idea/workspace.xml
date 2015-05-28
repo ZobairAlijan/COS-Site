@@ -69,7 +69,7 @@
       <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/jobs/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+            <state vertical-scroll-proportion="-6.6" vertical-offset="0" max-vertical-offset="615">
               <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
@@ -78,15 +78,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about_sponsors.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/page/about_sponsors.html">
+      <file leaf-file-name="about_partners.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/page/about_partners.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3044355" vertical-offset="2519" max-vertical-offset="6915">
-              <caret line="706" column="61" selection-start-line="706" selection-start-column="61" selection-end-line="706" selection-end-column="61" />
-              <folding>
-                <element signature="e#2229#7882#0#HTML" expanded="false" />
-                <element signature="e#7919#41553#0#HTML" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.100446425" vertical-offset="1830" max-vertical-offset="3210">
+              <caret line="125" column="24" selection-start-line="125" selection-start-column="24" selection-end-line="125" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -213,7 +210,6 @@
         <option value="$PROJECT_DIR$/static/plugins/back-to-top.js" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/page/about_board.html" />
-        <option value="$PROJECT_DIR$/templates/page/about_partners.html" />
         <option value="$PROJECT_DIR$/templates/page/stats_consulting.html" />
         <option value="$PROJECT_DIR$/templates/page/osf.html" />
         <option value="$PROJECT_DIR$/templates/page/news.html" />
@@ -244,6 +240,7 @@
         <option value="$PROJECT_DIR$/templates/page/pr/2015-04-21.html" />
         <option value="$PROJECT_DIR$/mysite/jobs/admin.py" />
         <option value="$PROJECT_DIR$/templates/page/about_sponsors.html" />
+        <option value="$PROJECT_DIR$/templates/page/about_partners.html" />
       </list>
     </option>
   </component>
@@ -252,10 +249,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-250" />
     <option name="y" value="23" />
-    <option name="width" value="1503" />
-    <option name="height" value="617" />
+    <option name="width" value="1280" />
+    <option name="height" value="569" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -1339,7 +1335,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-250" y="23" width="1503" height="617" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="569" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1348,7 +1344,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984716" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1736527" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20390625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -1491,13 +1487,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/page/about_partners.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-27.916666" vertical-offset="0" max-vertical-offset="0">
-          <caret line="168" column="24" selection-start-line="168" selection-start-column="24" selection-end-line="168" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1758,7 +1747,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/jobs/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+        <state vertical-scroll-proportion="-6.6" vertical-offset="0" max-vertical-offset="615">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
@@ -1768,12 +1757,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/page/about_sponsors.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3044355" vertical-offset="2519" max-vertical-offset="6915">
-          <caret line="706" column="61" selection-start-line="706" selection-start-column="61" selection-end-line="706" selection-end-column="61" />
-          <folding>
-            <element signature="e#2229#7882#0#HTML" expanded="false" />
-            <element signature="e#7919#41553#0#HTML" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="-8.341517" vertical-offset="14387" max-vertical-offset="14835">
+          <caret line="710" column="42" selection-start-line="710" selection-start-column="42" selection-end-line="710" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/page/about_partners.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.100446425" vertical-offset="1830" max-vertical-offset="3210">
+          <caret line="125" column="24" selection-start-line="125" selection-start-column="24" selection-end-line="125" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
