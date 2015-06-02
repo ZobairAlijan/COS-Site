@@ -55,8 +55,8 @@
       <file leaf-file-name="involved_participate.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/page/involved_participate.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="9.408" vertical-offset="0" max-vertical-offset="5970">
-              <caret line="392" column="14" selection-start-line="392" selection-start-column="14" selection-end-line="392" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.312" vertical-offset="45" max-vertical-offset="6000">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -2502,8 +2502,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/page/involved_participate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="9.408" vertical-offset="0" max-vertical-offset="5970">
-          <caret line="392" column="14" selection-start-line="392" selection-start-column="14" selection-end-line="392" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.312" vertical-offset="45" max-vertical-offset="6000">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
