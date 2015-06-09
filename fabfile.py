@@ -89,7 +89,7 @@ templates = {
         "remote_path": "%(proj_path)s/gunicorn.conf.py",
     },
     "settings": {
-        "local_path": "deploy/local_settings.py.template",
+        "local_path": "mysite/local_settings.py",
         "remote_path": "%(proj_path)s/local_settings.py",
     },
 }
