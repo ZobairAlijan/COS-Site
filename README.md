@@ -5,6 +5,7 @@ This repository holds the rework of centerforopenscience.org into the Django and
 # Install Instructions
 - Clone or Download repo
 - Run $ pip install -r requirements.txt
+- Make sure you fill in the settings in the local_settings.py.template and rename it to local_settings.py
 - Run $ python manage.py runserver
 - Visit http://127.0.0.1:8000/
 
