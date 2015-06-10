@@ -8,7 +8,7 @@
 <x></x>
 {% block stylesheets %}
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
-    <link href="{% static '/static/plugins/fancybox/source/jquery.fancybox.css' %}" rel="stylesheet"
+    <link href="{% static '/plugins/fancybox/source/jquery.fancybox.css' %}" rel="stylesheet"
           xmlns="http://www.w3.org/1999/html"/>
     <link href="{% static '/static/css/team_circle.css' %}" rel="stylesheet" />
     <!-- END PAGE LEVEL PLUGIN STYLES -->
@@ -29,7 +29,7 @@
         {% for team_member in current_members %}
             <li class="col-md-3 space-mobile" >
                 <div class="thumbnail">
-                    <div class="circular" style="background: url({% cropped_thumbnail team_member "mini_image" max_size=team_member.get_thumb_max_size %}); width: {{ team_member.thumb_image_width }}px; height: {{ team_member.thumb_image_height }}px"></div>
+                    <div class="circular" style="background: url({% cropped_thumbnail team_member "mini_image" max_size=team_member.get_thumb_max_size %}); width: {{ team_member.thumb_image_width }}px; height: {{ team_member.thumb_image_height }}px;"></div>
                     <h3>{{ team_member.name }}
                     <small>{{ team_member.position }}</small></h3>
                     <ul class="social-icons social-icons-color" >
