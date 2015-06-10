@@ -11,7 +11,9 @@ class NewsAdmin(ImageCroppingMixin, SortableModelAdmin):
     sortable = 'order'
 
     def News_image_url(self, obj):
-        return  obj.image.url
+        if not obj.image:
+            return ''
+        return obj.image.url
     News_image_url.allow_tag = True
 
     def News_thumb_url(self, obj):
