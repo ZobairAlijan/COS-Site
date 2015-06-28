@@ -6,11 +6,12 @@
 # DB / Migrations
 db.sqlite3
 migrations
-/static
+/static/*
+!/static/media/
+/static/media/*
+!/static/media/.gitkeep
 
 .idea
-**/bower_components
-node_modules
 local_settings.py
 
 !.gitkeep
