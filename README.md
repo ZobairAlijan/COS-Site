@@ -15,7 +15,7 @@ $ brew install memcached
 
 For windows go to Software folder and unzip memcached. 
 
-On your terminal, type:
+In command line type:
 
 c:\ memcached.exe -m 512 -vvv
 
