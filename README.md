@@ -13,7 +13,11 @@ Add a local_settings.py file from the template included in the deploy folder- pl
 
 $ brew install memcached
 
-For windows go to Software folder and unzip memcached. On your terminal, type: memcached.exe -m 512 -vvv
+For windows go to Software folder and unzip memcached. 
+
+On your terminal, type:
+
+c:\ memcached.exe -m 512 -vvv
 
 $ python manage.py migrate
 
